@@ -1,0 +1,136 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: v.$fuente_principal;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: v.$negro;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: v.$negro;
+    @include m.desktop-xl {
+        width: 19px;
+    }
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: v.$rojo;
+    @include m.desktop-xl {
+        border-radius: 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: v.$blanco;
+    font-size: 2.5rem;
+    margin: 0;
+    @include m.desktop-xl {
+        font-size: 7rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    color: v.$blanco;
+    font-size: 3.7rem;
+    @include m.telefono {
+        font-size: 4.3rem;
+    }
+    @include m.tablet {
+        font-size: 9rem;
+    }
+    @include m.desktop-xl {
+        font-size: 15rem;
+    }
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 2.8rem;
+    @include m.tablet {
+        font-size: 3.5rem;
+    }
+    @include m.desktop-xl {
+        font-size: 10rem;
+        margin-top: 0;
+    }
+}
+
+h3 {
+    color: v.$rojo;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    @include m.desktop-xl {
+        font-size: 8rem;
+    }
+}
+
+p {
+    font-size: 2rem;
+    @include m.desktop-xl {
+        font-size: 5rem;
+    }
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    @include m.telefono {
+        width: 95%;
+    }
+    @include m.desktop-xl {
+        max-width: 200rem;
+    }
+    &-small {
+        width: 80%;
+        margin: 0rem auto 0rem auto;
+        @include m.tablet {
+            width: 57%;
+            max-width: 185rem;
+        }
+        @include m.desktop-xl {
+            width: 65%;
+        }
+    }
+}
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.alinear-derecha {
+    @include m.desktop {
+        display: flex;
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,44 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+.boton {
+    background-color: v.$rojoOscuro;
+    display: block;
+    font-size: 2.5rem;
+    border-radius: 3rem;
+    padding: 1rem 2.5rem;
+    align-items: center;
+    text-align: center;
+    margin: 3rem 0;
+    @include m.desktop-xl {
+        font-size: 5rem;
+    }
+    &:hover {
+        background-color: v.$rojo;
+        cursor: pointer;
+    }
+    @include m.tablet {
+        padding: 1.5rem 3.5rem;
+        &:hover {
+            padding: 1.5rem 3.7rem;
+        }
+    }
+}
+
+.alinear-botones {
+    margin-bottom: 6rem;
+    @include m.desktop {
+        @include m.grid(2, 4rem);
+    }
+}
+
+.boton-icono {
+    a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        img {
+            width: 3rem;
+            margin-left: .5rem;
+        }
+    }
+}

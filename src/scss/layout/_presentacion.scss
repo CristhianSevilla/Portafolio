@@ -1,0 +1,52 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+.presentacion {
+    background-color: v.$gris;
+    padding: 0rem 1rem 1rem 1rem;
+    @include m.desktop-xl {
+        padding: 7rem 0;
+    }
+    h2 {
+        padding: 1.3rem 0 2.5rem 0;
+        margin-bottom: 0;
+        border-bottom: 1px solid v.$grisO;
+        font-size: 3rem;
+        font-weight: bold;
+        span {
+            color: v.$rojo;
+            text-transform: capitalize;
+        }
+        @include m.tablet {
+            font-size: 4rem;
+            text-align: left;
+            padding: 3rem;
+            margin-top: 1em;
+        }
+        @include m.desktop-xl {
+            font-size: 8rem;
+            border-bottom: 2.5px solid v.$grisO;
+        }
+    }
+    p {
+        font-size: 2rem;
+        padding: 1rem;
+        margin-top: 0;
+        @include m.tablet {
+            text-align: left;
+            line-height: 1.2;
+            margin-top: 3rem;
+        }
+        @include m.desktop-xl {
+            font-size: 4.5rem;
+        }
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+@include m.desktop {
+    .presentacion-contenido {
+        @include m.grid(2, 5rem);
+    }
+}

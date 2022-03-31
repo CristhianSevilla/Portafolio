@@ -1,0 +1,26 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+.sitio-web {
+    background-color: v.$gris;
+    h2 {
+        color: v.$rojo;
+        padding-bottom: 3rem;
+    }
+    h3 {
+        padding-top: 3rem;
+    }
+    p {
+        font-size: 1.8rem;
+        padding: 1rem 0;
+        span {
+            font-weight: bolder;
+        }
+        @include m.desktop-xl {
+            font-size: 4.5rem;
+        }
+    }
+}
+
+.imagenes-grid {
+    @include m.grid(2, 1rem)
+}

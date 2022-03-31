@@ -1,0 +1,98 @@
+    @use 'base/mixins' as m;
+    @use 'base/variables' as v;
+    .menu {
+        position: fixed;
+        z-index: 100;
+        background-color: v.$negro;
+        padding: 1.3rem;
+        width: 100%;
+        box-shadow: .1rem .2rem .3rem #333;
+        @include m.tablet {
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem 5rem;
+        }
+        @include m.desktop-xl {
+            padding: 3rem 14rem;
+        }
+    }
+    
+    //Menú de hamburguesa
+    .mobile-menu {
+        @include m.tablet {
+            display: none;
+        }
+        img {
+            width: 3rem;
+            @include m.telefono {
+                width: 3.5rem;
+            }
+        }
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+            font-size: 2.8rem;
+            text-align: left;
+            padding-left: 0;
+            color: v.$blanco;
+            text-transform: uppercase;
+            margin: 0;
+            span {
+                color: v.$rojo;
+                font-weight: 600;
+            }
+            @include m.telefono {
+                font-size: 3.5rem;
+            }
+            @include m.desktop-xl {
+                font-size: 7rem;
+            }
+        }
+    }
+    
+    .navegacion {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        transition: visibility .3s ease-in-out, opacity 0.3s linear, height 0.3s linear;
+        @include m.tablet {
+            display: flex;
+            flex-direction: row;
+            visibility: unset;
+            opacity: 1;
+            height: unset;
+        }
+        a {
+            display: block;
+            text-align: center;
+            font-weight: 400;
+            line-height: 1.8;
+            &:hover {
+                color: v.$rojo;
+            }
+            @include m.tablet {
+                margin-right: 2rem;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+            @include m.desktop-xl {
+                margin-right: 5rem;
+            }
+        }
+    }
+    
+    .mostrar {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+    
+    .ocultar-menu {
+        visibility: hidden;
+        opacity: 0;
+    }

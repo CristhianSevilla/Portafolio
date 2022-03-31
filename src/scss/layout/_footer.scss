@@ -1,0 +1,26 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+.footer {
+    p {
+        padding: 1rem;
+        color: v.$blanco;
+        text-align: center;
+        font-size: 1.8rem;
+        @include m.telefono {
+            font-size: 2rem;
+        }
+        span {
+            color: v.$rojo;
+            font-weight: 600;
+        }
+    }
+}
+
+.wave-footer {
+    height: 13rem;
+    width: 100%;
+    background-color: v.$gris;
+    @include m.desktop-xl {
+        height: 15rem;
+    }
+}

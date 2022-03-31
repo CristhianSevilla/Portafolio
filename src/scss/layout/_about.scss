@@ -1,0 +1,74 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+.display-flex-center {
+    p {
+        text-align: center;
+        color: v.$rojo;
+        margin-bottom: 4rem;
+        font-size: 2.3rem;
+        padding: 0 .5rem;
+        @include m.telefono {
+            font-size: 2.5rem;
+            margin-bottom: 5rem;
+            padding: unset;
+        }
+        @include m.tablet {
+            font-size: 3rem;
+        }
+        @include m.desktop-xl {
+            font-size: 8rem;
+            margin-bottom: 8rem;
+        }
+        span {
+            color: v.$rojo;
+        }
+    }
+}
+
+.contenedor-imagen {
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+    @include m.tablet {
+        width: 60%;
+        max-width: 100rem;
+    }
+}
+
+.descripcion {
+    margin-bottom: 4rem;
+    color: v.$blanco;
+    h2 {
+        text-align: left;
+        color: v.$rojo;
+        @include m.desktop-xl {
+            margin: 8rem 0;
+        }
+    }
+    p {
+        font-size: 1.6rem;
+        @include m.telefono {
+            font-size: 1.8rem;
+        }
+        @include m.desktop-xl {
+            font-size: 5rem;
+        }
+    }
+}
+
+.habilidades {
+    ul {
+        font-size: 1.6rem;
+        color: v.$blanco;
+        @include m.telefono {
+            font-size: 1.8rem;
+        }
+        @include m.desktop-xl {
+            font-size: 5rem;
+        }
+    }
+    @include m.tablet {
+        @include m.grid(2, 4rem);
+        margin-bottom: 4rem;
+    }
+}
