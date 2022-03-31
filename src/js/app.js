@@ -1,26 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    eventListener();
     onscroll();
 });
 
-function eventListener() {
-    const mobileMenu = document.querySelector('.mobile-menu');
-    const navegacion = document.querySelector('.navegacion');
-
-
-    mobileMenu.addEventListener('click', navegaciónResponsive);
-    navegacion.addEventListener('click', navegaciónResponsive);
-
-
-}
-
-
-function navegaciónResponsive() {
-    const navegacion = document.querySelector('.navegacion');
-
-    navegacion.classList.toggle('mostrar');
-
-}
+let enlaces = document.getElementById('enlaces');
+const mobileMenu = document.querySelector('.mobile-menu');
+let contador = 0;
+let body = document.getElementById('body');
 
 // Detectamos cuando el usuario desplace la pantalla
 window.onscroll = function() {
@@ -36,3 +21,24 @@ window.onscroll = function() {
         menu.classList.add('ocultar-menu');
     }
 }
+
+mobileMenu.addEventListener('click', function(e) {
+    e.preventDefault();
+    if (contador == 0) {
+        enlaces.className = ('navegacion dos');
+        contador = 1;
+    } else {
+        enlaces.classList.remove('dos');
+        enlaces.className = ('navegacion uno');
+        contador = 0;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    //esconder menu
+    if (body.getBoundingClientRect().top < 0) {
+        enlaces.classList.remove('dos');
+        enlaces.className = ('navegacion uno');
+        contador = 0;
+    }
+})
