@@ -17,7 +17,7 @@
             <h2>Soy <span>desarrollador web</span></h2>
             <p><span>Me gusta diseñar, maquetar y programar páginas web</span>, amo plasmar cada una de las ideas, colores y emociones que surgen de la inspiración de...</p>
             <div class="alinear-derecha contenedor ">
-                <a href="acercade.php" class="contenido_contacto boton ">Leer más</a>
+                <a href="/acerca" class="contenido_contacto boton ">Leer más</a>
             </div>
         </div>
         <div class="presentacion-imagen ">

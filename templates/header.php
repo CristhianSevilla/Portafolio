@@ -23,7 +23,7 @@
     <header class="header">
         <div class="menu ocultar-menu">
             <div class="logo">
-                <a href="index.php">
+                <a href="/">
                     <p>Cristhian<span>Dev</span></p>
                 </a>
                 <div class="mobile-menu">
@@ -31,10 +31,9 @@
                 </div>
             </div>
             <div class="navegacion uno" id="enlaces">
-                <a href="acercade.php">Acerca de</a>
-                <a href="portafolio.php">Portafolio</a>
-                <a href="contacto.php
-                ">Contacto</a>
+                <a href="acercade">Acerca de</a>
+                <a href="portafolio">Portafolio</a>
+                <a href="contacto">Contacto</a>
             </div>
         </div>
     </header>
