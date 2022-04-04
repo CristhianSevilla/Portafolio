@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="navegacion uno" id="enlaces">
-                <a href="acercade">Acerca de</a>
+                <a href="acerca">Acerca de</a>
                 <a href="portafolio">Portafolio</a>
                 <a href="contacto">Contacto</a>
             </div>
