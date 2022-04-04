@@ -1,4 +1,4 @@
-<?php include 'templates/header.php'; ?>
+<?php include 'includes/templates/header.php'; ?>
 
 <main>
     <section class="display-flex-center contenedor">
@@ -56,4 +56,4 @@
 </section>
 
 
-<?php include 'templates/footer.php'; ?>
+<?php include 'includes/templates/footer.php'; ?>

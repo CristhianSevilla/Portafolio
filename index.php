@@ -1,4 +1,4 @@
-<?php include 'templates/header.php'; ?>
+<?php include 'includes/templates/header.php'; ?>
 
 <section class="header-inferior contenedor ">
     <div class="header-texto ">
@@ -35,4 +35,4 @@
         </svg></div>
 </div>
 
-<?php include 'templates/footer.php'; ?>
+<?php include 'includes/templates/footer.php'; ?>
