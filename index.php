@@ -1,84 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'templates/header.php'; ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cristhian Sevilla</title>
-
-    <link rel="shortcut icon" href="build/img/icons/favicon.png">
-
-    <meta name="description" content="Cristhian Sevilla, Desarrollador Web. Me gusta diseñar, maquetar y programar páginas web">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
-
-    <link rel="preload" href="build/css/app.css" as="style">
-    <link rel="stylesheet" href="/build/css/app.css">
-</head>
-
-<body id="body">
-    <header class="header">
-        <div class="menu ocultar-menu">
-            <div class="logo">
-                <a href="index.html">
-                    <p>Cristhian<span>Dev</span></p>
-                </a>
-                <div class="mobile-menu">
-                    <img width="50" height="50" src="build/img/barras.svg" alt="icono menú responsive">
-                </div>
-            </div>
-            <div class="navegacion uno" id="enlaces">
-                <a href="about.html">Acerca de</a>
-                <a href="work.html">Portafolio</a>
-                <a href="contact.html">Contacto</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="header-inferior contenedor ">
-        <div class="header-texto ">
-            <h1>¡Hola! soy<span> Cristhian</span></h1>
-        </div>
-    </section>
-    <div class="wave ">
-        <div style="height: 150px; overflow: hidden; "><svg viewBox="0 0 500 150 " preserveAspectRatio="none " style="height: 100%; width: 100%; ">
-                <path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z "
-                    style="stroke: none; "></path>
-            </svg></div>
+<section class="header-inferior contenedor ">
+    <div class="header-texto ">
+        <h1>¡Hola! soy<span> Cristhian</span></h1>
     </div>
+</section>
+<div class="wave ">
+    <div style="height: 150px; overflow: hidden; "><svg viewBox="0 0 500 150 " preserveAspectRatio="none " style="height: 100%; width: 100%; ">
+            <path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z " style="stroke: none; "></path>
+        </svg></div>
+</div>
 
-    <main class="presentacion ">
-        <div class="contenedor presentacion-contenido ">
-            <div>
-                <h2>Soy <span>desarrollador web</span></h2>
-                <p><span>Me gusta diseñar, maquetar y programar páginas web</span>, amo plasmar cada una de las ideas, colores y emociones que surgen de la inspiración de...</p>
-                <div class="alinear-derecha contenedor ">
-                    <a href="about.html " class="contenido_contacto boton ">Leer más</a>
-                </div>
-            </div>
-            <div class="presentacion-imagen ">
-                <picture>
-                    <source srcset="./build/img/developer.webp " type="image/webp ">
-                    <img loading="lazy " width="200 " height="300 " src="./build/img/developer.png " alt="desarrollador Web ">
-                </picture>
+<main class="presentacion ">
+    <div class="contenedor presentacion-contenido ">
+        <div>
+            <h2>Soy <span>desarrollador web</span></h2>
+            <p><span>Me gusta diseñar, maquetar y programar páginas web</span>, amo plasmar cada una de las ideas, colores y emociones que surgen de la inspiración de...</p>
+            <div class="alinear-derecha contenedor ">
+                <a href="acercade.php" class="contenido_contacto boton ">Leer más</a>
             </div>
         </div>
-    </main>
-
-    <div class="wave-footer ">
-        <div style="height: 150px; overflow: hidden; "><svg viewBox="0 0 500 150 " preserveAspectRatio="none " style="height: 100%; width: 100%; ">
-                <path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z "
-                    style="stroke: none; "></path>
-            </svg></div>
+        <div class="presentacion-imagen ">
+            <picture>
+                <source srcset="./build/img/developer.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="./build/img/developer.png " alt="desarrollador Web ">
+            </picture>
+        </div>
     </div>
-    <footer class="footer ">
-        <p>&copy Todos los derechos reservados <span>Cristhian Sevilla</span> 2022</p>
-    </footer>
+</main>
 
-    <script src="./build/js/bundle.min.js "></script>
-</body>
+<div class="wave-footer ">
+    <div style="height: 150px; overflow: hidden; "><svg viewBox="0 0 500 150 " preserveAspectRatio="none " style="height: 100%; width: 100%; ">
+            <path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z " style="stroke: none; "></path>
+        </svg></div>
+</div>
 
-</html>
+<?php include 'templates/footer.php'; ?>
