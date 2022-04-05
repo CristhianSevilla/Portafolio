@@ -31,9 +31,9 @@
                 </div>
             </div>
             <div class="navegacion uno" id="enlaces">
-                <a href="acerca">Acerca de</a>
-                <a href="portafolio">Portafolio</a>
-                <a href="contacto">Contacto</a>
+                <a href="about">Acerca de</a>
+                <a href="work">Portafolio</a>
+                <a href="contact">Contacto</a>
             </div>
         </div>
     </header>
