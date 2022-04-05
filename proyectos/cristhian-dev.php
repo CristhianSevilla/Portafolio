@@ -21,7 +21,7 @@
             <img width="200" height="300" src="../build/img/projects/cristhian/0.jpg" alt="Sitio web de CristhianDev en una MacBook">
         </picture>
         <P>
-            <span>Cristhian Dev es un sitio web cuyo principal objetivo es funcionar como una carta de presentación de un desarrollador web. </span>Es mi sitio web personal, por lo tanto le he puesto mucho entusiasmo y dedicación, puedo decir que he disfrutado mucho del proceso y que estoy orgulloso del trabajo que he realizado.
+            <span>Cristhian Dev es un sitio web cuyo principal objetivo es funcionar como carta de presentación de un desarrollador web. </span>Es mi sitio web personal, por lo tanto le he puesto mucho entusiasmo y dedicación, puedo decir que he disfrutado mucho del proceso y que estoy orgulloso del trabajo que he realizado.
         </P>
 
         <div class="imagenes-grid">
@@ -37,20 +37,19 @@
 
         <h3>Mi papel</h3>
 
-        <p>Me encargué de maquetar todo el diseño del proyecto haciendo uso de las tecnologías <span>HTML5 y CSS3</span>, para diferentes secciones fue necesario aplicar un display <span> grid o flex</span>, dependiendo del diseño responsivo para cada
-            dispositivo.
+        <p>Fui el director de diseño de todo el proyecto, desde el <span>diseño de imágenes con Photoshop</span>, el manejo de la paleta de colores, logotipo, tipografías, estilos y el flujo de trabajo de enlaces internos.
         </p>
 
-        <p>Para mejorar el <span>performance</span> del sitio usé <span>lazy Loading</span> en todas las imágenes para descargarlas solo cuando sean visibles, codifiqué el sitio web para que se muestren
-            <span>imágenes en formato webp</span> en caso de ser soportadas por el navegador.
-        </p>
+        <p>Para la estructura y el maquetado del sitio usé <span>HTML5 y CSS3</span>, jugando entre un display <span> grid o flex</span>, dependiendo del diseño responsivo para cada dispositivo. El CSS fue codificado en <span>SASS</span>.</p>
 
-        <p>También hice uso de <span>Prefetch</span> en el head, para cargar páginas que posiblemente el usuario visite después, y el <span> preload</span> para cargar primero fuentes y estilos. Puse <span>etiquetas meta</span> para la descripción del
-            sitio web y tener un mejor SEO.
+        <p>Con <span>JavaScript</span> hice el efecto que tiene el menú en diferentes dispositivos. Todos los archivos CSS Y JS fueron compilados y mapeados con <span>Gulp</span>, las imágenes fueron comprimidas y convertidas a formatos .webp para desplegarlas en caso de que el navegador las soporte.</p>
 
-        </p>
+        <p>Utilicé <span>PHP</span> para implementar templates de header (menú) y footer (pie de página) para tener más control de ellos en caso de algún cambio. También para colocar la fecha exacta en el footer</p>
 
-        <p>Finalmente hice el <span>deployment </span>del proyecto y una <span>auditoría</span> del mismo con <span>Lighthouse</span> para evaluar <span>performance, Accessibility, Best Practices y SEO.</span></p>
+        <p>Configure el archivo <span>.htaccess</span> para desplegar URLs amigables. Todo el proyecto fue desarrollado con un sistema de control de versiones a través de <span>Git y  GitHub.</span> </p>
+
+        <p>Hice el deployment del proyecto y una auditoría del mismo con <span>Lighthouse</span> para evaluar <span>performance, Accessibility, Best Practices y SEO.
+</span> Finalmente publiqué el proyecto en su respectivo hosting y dominio.</p>
 
         <div class="alinear-botones contenedor">
             <div class="boton-icono">
