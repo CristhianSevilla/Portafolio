@@ -66,6 +66,9 @@
         @include m.desktop-xl {
             font-size: 5rem;
         }
+        li {
+            padding: .13rem;
+        }
     }
     @include m.tablet {
         @include m.grid(2, 4rem);

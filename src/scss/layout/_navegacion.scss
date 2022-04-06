@@ -10,7 +10,7 @@
         @include m.tablet {
             display: flex;
             justify-content: space-between;
-            padding: 1.5rem 5rem;
+            padding: 1rem 5rem;
         }
         @include m.desktop-xl {
             padding: 3rem 14rem;

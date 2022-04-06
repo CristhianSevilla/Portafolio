@@ -37,7 +37,7 @@
             <li>Gestión de autoaprendizaje</li>
             <li>Buena predisposición para trabajar en equipo</li>
             <li>Imaginación, creatividad y gusto por la estética visual</li>
-            <li>Profesionalidad, responsabilidad y puntualidad</li>
+            <li>Profesionalidad y responsabilidad</li>
         </ul>
     </div>
     <div class="conocimientos">

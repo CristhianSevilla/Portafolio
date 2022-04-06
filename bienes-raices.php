@@ -1,17 +1,15 @@
 <?php
- include './includes/funciones.php';
+include './includes/funciones.php';
 
- incluirTemplate('header');
- ?>
+incluirTemplate('header');
+?>
 
 <section class="display-flex-center contenedor-small ">
     <h1>Bienes raíces</h1>
 </section>
-<div class="wave ">
-    <div style="height: 150px; overflow: hidden; "><svg viewBox="0 0 500 150 " preserveAspectRatio="none " style="height: 100%; width: 100%; ">
-            <path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z " style="stroke: none; "></path>
-        </svg></div>
-</div>
+<div class="wave">
+        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; "></path></svg></div>
+    </div>
 
 <section class="sitio-web ">
     <div class="contenedor-small ">
@@ -22,7 +20,7 @@
         </picture>
         <P>
             <span> Bienes raíces es un sitio web donde las personas encuentran anuncios de casas y departamentos de
-                lujo en venta</span>, y al mismo tiempo tienen la oportunidad de pedir información para vender su casa a través del sitio o simplemente comprar una de ellas. Además también cuenta con un blog de artículos referentes
+                lujo en venta</span>, y al mismo tiempo tienen la oportunidad de pedir información para vender su casa a través del sitio o simplemente comprar una de ellas. Además cuenta con un blog de artículos referentes
             al diseño de lugares dentro de casa y una sección de testimonios de personas que han visitado la página.
         </P>
         <div class="imagenes-grid ">
@@ -36,7 +34,7 @@
             </picture>
         </div>
         <P>
-            <span>El administrador de la página</span> tiene el control de los anuncios que se muestran, puede crear, borrar o editar, siempre y cuando haya iniciado sesión como administrador.
+            <span>El administrador de la página</span> tiene el control de los anuncios que se muestran, puede crear, eliminar o editar, siempre y cuando haya iniciado sesión como administrador.
         </P>
         <picture>
             <source srcset="../build/img/projects/bienesraices/a2.webp " type="image/webp ">
@@ -44,30 +42,40 @@
         </picture>
         <h3>Mi papel</h3>
 
-        <p>Me encargué de maquetar el diseño completo del proyecto haciendo uso de <span>HTML5, CSS3
-                (Flexbox, Grid), SASS y JavaScript</span> para el menú de hamburguesa y modo oscuro de la aplicación, entre otras cosas. <span>Gulp</span> para compilar y mapear las hojas de estilos, los archivos de javascript, comprimir imágenes
-            png/jpg y convertirlas a <span>webp</span>, para tener un buen perfomance, haciendo uso de dependencias (packaje.json).</p>
+        <p>Me encargué de maquetar el diseño del proyecto con <span>HTML5, CSS3
+                (Flexbox, Grid), SASS y JavaScript</span> para el menú de hamburguesa y modo oscuro de la aplicación. Todo el sitio web por parte del cliente tiene un <span>diseño responsivo</span></p>
 
-        <p>Por parte del <span></span>Back-End creé y normalice la base de datos <span>MySQL</span>, programé en
+        <p> <span>Gulp</span> para compilar y mapear las hojas de estilos, los archivos de javascript y comprimir imágenes
+            png/jpg, convertirlas a <span>webp</span> para tener un buen perfomance, haciendo uso de dependencias (packaje.json).</p>
+
+        <p>En el <span></span>Back-End creé y normalice la base de datos <span>MySQL</span>, programé en
             <span>PHP 8</span> el CRUD de propiedades y vendedores, realicé la <span>autenticación de
-                usuarios</span> de forma que las rutas (urls) que pertenecen al administrador estén protegidas por un inicio de sesión con <span>contraseñas
-                hasheadas</span> en la base de datos, cada formulario esté validado según los requerimientos y protegido para evitar <span>inyección de código</span>.
+                usuarios</span>, de forma que las URLs que pertenecen al administrador estén protegidas por un inicio de sesión con <span>contraseñas
+                hasheadas</span>. Cada formulario esté validado según los requerimientos y protegido para evitar <span>inyección de código</span>.
         </p>
 
-        <p>También programé y creé toda la estructura del modelo vista controlador (<span>MVC</span>), desde el routing, controladores, modelos y vistas. La parte de contacto es funcional gracias a PHPMailer y Mailtrap para el envío de emails.
+        <p>También programé la estructura del modelo vista controlador (<span>MVC</span>), desde el routing, controladores, modelos y vistas. La parte de contacto es funcional gracias a PHPMailer y Mailtrap para el envío de emails.
         </p>
 
-        <p>Antes de mandarlo a producción realicé las pruebas necesarias al proyecto a través de <span>pruebas escritas en Cypress</span>, comprobando que ciertos elementos existan dentro de una página y tenga cierto estilo, también comprobé todas las
-            rutas del sitio web incluso las alertas, mensajes y errores que pudieran ocurrir en algún proceso.</p>
+        <p>Realicé las pruebas necesarias al proyecto a través de <span>Cypress</span>, comprobando que ciertos elementos existan dentro de una página y tengan los estilos requeridos, comprobé las
+            rutas del sitio web incluso las alertas, mensajes y errores que pudieran ocurrir dentro de algún proceso.</p>
 
-        <p>Una vez comprobado el sitio web, realicé el <span>deployment del proyecto</span> para mandarlo a producción, creé las variables de entorno para la base de datos. el archivo procfile y .htaccess. Finalmente publiqué el proyecto en <span>GitHub</span> y Heroku.
+        <p>Realicé el <span>deployment del proyecto</span> para mandarlo a producción, creé las variables de entorno para la base de datos. el archivo procfile y .htaccess. Finalmente publiqué el proyecto en <span>GitHub</span> y Heroku.
         </p>
 
-        <p>Para entrar como administrador consulte usuario y contraseña </p>
-        <a class="contacto-enlace " href="mailto:crissev17@gmail.com ">Pedir usuario y contraseña</a>
+        <p><span>Nota:</span> Si las imágenes de la propiedad no se despliegan es debido a que no se guardan en la base de datos, sino en el servidor. Heroku limpia el servidor cada 3 horas borrando los archivos fuera de la base de datos y vuelve a sincronizarse con el repositorio de GitHub.</p> 
+
+        <p>Puede entrar como administrador y agregar una propiedad nueva o editar las existentes cargando una imagen, la aplicación desplegará la imagen cargada</p>
 
 
-        <a class="contacto-enlace " target="_blank " href="https://shrouded-oasis-59999.herokuapp.com/login ">Entrar como administrador</a>
+        <p>Credenciales de administrador</p>
+
+        <ul type="circle">
+            <li>Correo: crissev17@gmail.com</li>
+            <li>Contraseña: 123456</li>
+        </ul>
+
+        <a class="contacto-enlace" target="_blank " href="https://shrouded-oasis-59999.herokuapp.com/login ">Entrar como administrador</a>
 
         <div class="alinear-botones contenedor ">
             <div class="boton-icono ">
@@ -89,8 +97,6 @@
             </div>
         </div>
 
-
-        <p>Todo el sitio web por parte del cliente tiene un <span>diseño responsivo</span>.</p>
         <picture>
             <source srcset="../build/img/projects/bienesraices/responsive.webp " type="image/webp ">
             <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/responsive.jpg " alt="Sitio web de Bienes raíces en diferentes dispositivos ">
@@ -98,10 +104,8 @@
     </div>
 </section>
 
-<div class="wave-footer ">
-    <div style="height: 150px; overflow: hidden; "><svg viewBox="0 0 500 150 " preserveAspectRatio="none " style="height: 100%; width: 100%; ">
-            <path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z " style="stroke: none; "></path>
-        </svg></div>
-</div>
+<div class="wave-footer">
+        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; "></path></svg></div>
+    </div>
 
 <?php incluirTemplate('footer'); ?>
