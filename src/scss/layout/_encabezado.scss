@@ -1,0 +1,77 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 8rem;
+    h1 {
+        animation: moverAbajo 1s ease-in;
+    }
+    p {
+        text-align: center;
+        color: v.$rojo;
+        margin-bottom: 4rem;
+        font-size: 2.3rem;
+        padding: 0 .5rem;
+        animation: moverArriba 1s ease-in;
+        @include m.telefono {
+            font-size: 3rem;
+        }
+        @include m.tablet {
+            font-size: 4.5rem;
+        }
+        @include m.desktop-xl {
+            font-size: 8rem;
+        }
+    }
+}
+
+
+/*Frames Animaciones */
+
+@keyframes moverIzquierda {
+    0% {
+        opacity: 0;
+        transform: translate(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moverDerecha {
+    0% {
+        opacity: 0;
+        transform: translate(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moverArriba {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moverAbajo {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

@@ -1,6 +1,6 @@
 <?php include 'includes/templates/header.php'; ?>
 
-<section class="header-inferior contenedor ">
+<section class="header-inferior">
     <div class="header-texto ">
         <h1>¡Hola! soy<span> Cristhian</span></h1>
     </div>

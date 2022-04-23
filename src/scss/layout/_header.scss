@@ -9,6 +9,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        min-height: 100vh;
         @include m.tablet {
             height: 60rem;
         }
@@ -54,6 +55,7 @@
             line-height: 1.5;
             text-align: left;
             max-width: 9rem;
+            animation: moverAbajo 1s ease-in;
             span {
                 color: v.$rojo;
             }

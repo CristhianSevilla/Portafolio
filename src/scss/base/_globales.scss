@@ -56,7 +56,8 @@ h1 {
     color: v.$blanco;
     font-size: 3.7rem;
     @include m.telefono {
-        font-size: 4.3rem;
+        font-size: 4.5rem;
+        line-height: 2;
     }
     @include m.tablet {
         font-size: 9rem;

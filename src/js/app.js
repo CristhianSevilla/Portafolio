@@ -2,15 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
     onscroll();
 });
 
-let enlaces = document.getElementById('enlaces');
-const mobileMenu = document.querySelector('.mobile-menu');
-let contador = 0;
-let body = document.getElementById('body');
-
 // Detectamos cuando el usuario desplace la pantalla
 window.onscroll = function() {
     // Obtenemos la posicion del scroll en pantalla
-    var scroll = document.documentElement.scrollTop || document.body.scrollTop;
+    let scroll = document.documentElement.scrollTop || document.body.scrollTop;
 
     const menu = document.querySelector('.menu');
 
@@ -21,6 +16,11 @@ window.onscroll = function() {
         menu.classList.add('ocultar-menu');
     }
 }
+
+let enlaces = document.getElementById('enlaces');
+const mobileMenu = document.querySelector('.mobile-menu');
+let contador = 0;
+let body = document.getElementById('body');
 
 mobileMenu.addEventListener('click', function(e) {
     e.preventDefault();

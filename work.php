@@ -1,7 +1,7 @@
 <?php include 'includes/templates/header.php'; ?>
 
 
-<section class="display-flex-center contenedor-small ">
+<section class="encabezado contenedor ">
     <div>
         <h1>¡Disfruto lo que hago!</h1>
         <P>¡Y compartirlo contigo es la mejor parte!</P>

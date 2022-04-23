@@ -1,9 +1,9 @@
 <?php include 'includes/templates/header.php'; ?>
 
 <main>
-    <section class="display-flex-center contenedor">
+    <section class="encabezado contenedor">
         <div>
-            <h1>Desarrollador web</h1>
+            <h1>desarrollador web</h1>
             <p>Me gusta diseñar, maquetar y programar páginas web</p>
         </div>
     </section>
@@ -43,12 +43,12 @@
     <div class="conocimientos">
         <h3>Conocimientos</h3>
         <ul type="circle">
-            <li>HTML5, CSS3, SASS, Gulp</li>
-            <li>JavaScript ES6</li>
-            <li>API Rest, Fetch API</li>
+            <li>HTML5, CSS3, SASS (SCSS)</li>
+            <li>JavaScript ES6, Gulp</li>
             <li>PHP8, Java</li>
+            <li>Fetch API</li>
             <li>Programación Orientada a Objetos</li>
-            <li>MVC</li>
+            <li>MVC, API</li>
             <li>Oracle, MySQL</li>
             <li>Git, GitHub</li>
         </ul>

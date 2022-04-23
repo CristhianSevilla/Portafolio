@@ -2,7 +2,7 @@
 
 
 
-<div class="display-flex-center contenedor-small ">
+<div class="encabezado contenedor-small ">
     <h1>¡Hagamos algo increíble!</h1>
 </div>
 
