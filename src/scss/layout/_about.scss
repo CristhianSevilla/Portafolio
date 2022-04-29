@@ -3,7 +3,7 @@
 .contenedor-imagen {
     width: 100%;
     max-width: 100rem;
-    margin: 0 auto;
+    margin: 0 auto 7rem auto;
     @include m.tablet {
         width: 60%;
         max-width: 100rem;
@@ -11,9 +11,10 @@
 }
 
 .descripcion {
-    margin: 7.5rem auto;
+    margin: 0 auto 7.5rem auto;
     color: v.$blanco;
     h2 {
+        margin-top: 0;
         text-align: left;
         color: v.$rojo;
         @include m.desktop-xl {
