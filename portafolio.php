@@ -18,8 +18,8 @@
             </div>
             <div class="proyecto-imagen ">
                 <picture>
-                    <source srcset="./build/img/projects/bienes-raices.webp " type="image/webp ">
-                    <img width="200 " height="70 " src="./build/img/projects/bienesraices/0.jpg " alt="Sitio web de Bienes raíces ">
+                    <source srcset="./build/img/projects/bienes-raices-desarrollo-fullstack.webp " type="image/webp ">
+                    <img width="200 " height="70 " src="./build/img/projects/bienes-raices-desarrollo-fullstack.jpg " alt="Sitio web de Bienes raíces ">
                 </picture>
                 <a href="portafolio-bienes-raices" class="contenido_contacto boton ">Ver más</a>
             </div>
@@ -32,8 +32,8 @@
             </div>
             <div class="proyecto-imagen ">
                 <picture>
-                    <source srcset="./build/img/projects/emfest.webp " type="image/webp ">
-                    <img width="100 " height="100 " src="./build/img/projects/emfest.jpg " alt="Sitio web de EMFest ">
+                    <source srcset="./build/img/projects/emfest-desarrollo-frontend.webp " type="image/webp ">
+                    <img width="100 " height="100 " src="./build/img/projects/emfest-desarrollo-frontend.jpg " alt="Sitio web de EMFest ">
                 </picture>
                 <a href="portafolio-electronic-music-fest" class="contenido_contacto boton ">Ver más</a>
             </div>
@@ -46,8 +46,8 @@
             </div>
             <div class="proyecto-imagen ">
                 <picture>
-                    <source srcset="./build/img/projects/landinpage.webp" type="image/webp ">
-                    <img loading="lazy " width="100 " height="100 " src="./build/img/projects/landinpage.jpg " alt="Sitio web de landingPage ">
+                    <source srcset="./build/img/projects/landinpage-desarrollo-frontend.webp" type="image/webp ">
+                    <img loading="lazy " width="100 " height="100 " src="./build/img/projects/landinpage-desarrollo-frontend.jpg " alt="Sitio web de landingPage ">
                 </picture>
                 <a href="portafolio-landing-page" class="contenido_contacto boton ">Ver más</a>
             </div>
@@ -60,8 +60,8 @@
             </div>
             <div class="proyecto-imagen ">
                 <picture>
-                    <source srcset="./build/img/projects/cristhianDev.webp " type="image/webp ">
-                    <img loading="lazy " width="200 " height="300 " src="./build/img/projects/cristhianDev.jpg " alt="Sitio web de cristhianDev ">
+                    <source srcset="./build/img/projects/cristhianDev-desarrollo-fullstack.webp " type="image/webp ">
+                    <img loading="lazy " width="200 " height="300 " src="./build/img/projects/cristhianDev-desarrollo-fullstack.jpg " alt="Sitio web de cristhian Sevilla">
                 </picture>
                 <a href="portafolio-cristhian-dev" class="contenido_contacto boton ">Ver más</a>
             </div>
@@ -74,8 +74,8 @@
             </div>
             <div class="proyecto-imagen ">
                 <picture>
-                    <source srcset="./build/img/projects/blog-cafe.webp " type="image/webp ">
-                    <img loading="lazy " width="100 " height="100 " src="./build/img/projects/blog-cafe.jpg " alt="Sitio web de blog de café ">
+                    <source srcset="./build/img/projects/blog-cafe-desarrollo-frontend.webp " type="image/webp ">
+                    <img loading="lazy " width="100 " height="100 " src="./build/img/projects/blog-cafe-desarrollo-frontend.jpg " alt="Blog de café ">
                 </picture>
                 <a href="portafolio-blog-de-cafe" class="contenido_contacto boton ">Ver más</a>
             </div>

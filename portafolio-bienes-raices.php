@@ -15,8 +15,8 @@ incluirTemplate('header');
     <div class="contenedor-small ">
         <h2>Desarrollo Back-end y Front-end</h2>
         <picture>
-            <source srcset="../build/img/projects/bienesraices/0.webp " type="image/webp ">
-            <img width="200 " height="300 " src="../build/img/projects/bienesraices/0.jpg " alt="Sitio web de Bienes raíces en una macBook ">
+            <source srcset="../build/img/projects/bienesraices/sitio-web.webp " type="image/webp ">
+            <img width="200 " height="300 " src="../build/img/projects/bienesraices/sitio-web.jpg " alt="Sitio web de Bienes raíces en una macBook ">
         </picture>
         <P>
             <span> Bienes raíces es un sitio web donde las personas encuentran anuncios de casas y departamentos de
@@ -25,20 +25,20 @@ incluirTemplate('header');
         </P>
         <div class="imagenes-grid ">
             <picture>
-                <source srcset="../build/img/projects/bienesraices/0.1.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/0.1.jpg " alt="Sitio web de Bienes raíces en un iPhone ">
+                <source srcset="../build/img/projects/bienesraices/0.1-pagina-web.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/0.1-pagina-web.jpg " alt="Sitio web de Bienes raíces en un iPhone ">
             </picture>
             <picture>
-                <source srcset="../build/img/projects/bienesraices/0.2.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/0.2.jpg " alt="Sitio web de Bienes raíces en un iPhone ">
+                <source srcset="../build/img/projects/bienesraices/0.2-pagina-web.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/0.2-pagina-web.jpg " alt="Sitio web de Bienes raíces en un iPhone ">
             </picture>
         </div>
         <P>
             <span>El administrador de la página</span> tiene el control de los anuncios que se muestran, puede crear, eliminar o editar, siempre y cuando haya iniciado sesión como administrador.
         </P>
         <picture>
-            <source srcset="../build/img/projects/bienesraices/a2.webp " type="image/webp ">
-            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/a2.jpg " alt="Pagina del administrador de Bienes raíces ">
+            <source srcset="../build/img/projects/bienesraices/pagina-web.webp " type="image/webp ">
+            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/pagina-web.jpg " alt="Pagina del administrador de Bienes raíces ">
         </picture>
         <h3>Mi papel</h3>
 
@@ -98,8 +98,8 @@ incluirTemplate('header');
         </div>
 
         <picture>
-            <source srcset="../build/img/projects/bienesraices/responsive.webp " type="image/webp ">
-            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/responsive.jpg " alt="Sitio web de Bienes raíces en diferentes dispositivos ">
+            <source srcset="../build/img/projects/bienesraices/pagina-web-responsiva.webp " type="image/webp ">
+            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/bienesraices/pagina-web-responsiva.jpg " alt="Sitio web de Bienes raíces en diferentes dispositivos ">
         </picture>
     </div>
 </section>

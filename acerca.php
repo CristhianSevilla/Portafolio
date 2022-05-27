@@ -10,8 +10,8 @@
 
     <div class="contenedor-imagen">
         <picture>
-            <source srcset="./build/img/Portada.webp" type="image/webp">
-            <img width="100" height="100" src="./build/img/Portada.jpg" alt="Cristhian Sevilla">
+            <source srcset="./build/img/Cristhian-Sevilla-Desarrollador-Web.webp" type="image/webp">
+            <img width="100" height="100" src="./build/img/Cristhian-Sevilla-Desarrollador-Web.jpg" alt="Cristhian Sevilla Desarrollador web">
         </picture>
     </div>
 </main>

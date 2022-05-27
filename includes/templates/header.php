@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="build/img/icons/favicon.png">
 
-    <meta name="description" content="Cristhian Sevilla, Desarrollador Web. Me gusta diseñar, maquetar y programar páginas web">
+    <meta name="description" content="Cristhian Sevilla, Desarrollador Web, Front-End y Back-End. Me gusta diseñar, maquetar y programar páginas web. Páginas web para tu negocio, tu marca, tienda online o sitio web personal">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

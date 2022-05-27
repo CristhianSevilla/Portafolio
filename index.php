@@ -21,7 +21,7 @@
         <div class="presentacion-imagen ">
             <picture>
                 <source srcset="./build/img/developer.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="./build/img/developer.png " alt="desarrollador Web ">
+                <img loading="lazy " width="200 " height="300 " src="./build/img/developer.png " alt="desarrollador Web, paginas web">
             </picture>
         </div>
     </div>

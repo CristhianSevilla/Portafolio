@@ -15,8 +15,8 @@
     <div class="contenedor-small ">
         <h2>Desarrollo Front-End</h2>
         <picture>
-            <source srcset="../build/img/projects/blogcafe/01.webp " type="image/webp ">
-            <img width="200 " height="300 " src="../build/img/projects/blogcafe/01.jpg " alt="Sitio web de Block de café en una MacBook ">
+            <source srcset="../build/img/projects/blogcafe/pagina-web.webp " type="image/webp ">
+            <img width="200 " height="300 " src="../build/img/projects/blogcafe/pagina-web.jpg " alt="Sitio web de Block de café en una MacBook ">
         </picture>
         <P>
             <span> Blog de Café es un sitio web donde las personas pueden encontrar todo acerca del mundo del café</span> y envolverse entre los colores hasta llegar a sentir el aroma del café e incluso saborearlo.
@@ -25,12 +25,12 @@
         </p>
         <div class="imagenes-grid ">
             <picture>
-                <source srcset="../build/img/projects/blogcafe/02.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/blogcafe/02.jpg " alt="Sitio web de Blog de café en un iPhone ">
+                <source srcset="../build/img/projects/blogcafe/02-pagina-web.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/blogcafe/02-pagina-web.jpg " alt="Sitio web de Blog de café en un iPhone ">
             </picture>
             <picture>
-                <source srcset="../build/img/projects/blogcafe/03.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/blogcafe/03.jpg " alt="Sitio web de Blog de café en un iPhone ">
+                <source srcset="../build/img/projects/blogcafe/03-pagina-web.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/blogcafe/03-pagina-web.jpg " alt="Sitio web de Blog de café en un iPhone ">
             </picture>
         </div>
 
@@ -72,8 +72,8 @@
         </div>
 
         <picture>
-            <source srcset="../build/img/projects/blogcafe/responsive.webp " type="image/webp ">
-            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/blogcafe/responsive.jpg " alt="Sitio web de Blog De Café responsivo ">
+            <source srcset="../build/img/projects/blogcafe/pagina-web-responsiva.webp " type="image/webp ">
+            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/blogcafe/pagina-web-responsiva.jpg " alt="Sitio web de Blog De Café responsivo ">
         </picture>
     </div>
 </section>

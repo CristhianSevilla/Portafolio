@@ -16,8 +16,8 @@
     <div class="contenedor-small ">
         <h2>Desarrollo Front-End</h2>
         <picture>
-            <source srcset="../build/img/projects/emfest/0.webp " type="image/webp ">
-            <img width="200 " height="300 " src="../build/img/projects/emfest/0.jpg " alt="Sitio web de EMFest en una MacBook ">
+            <source srcset="../build/img/projects/emfest/pagina-web.webp " type="image/webp ">
+            <img width="200 " height="300 " src="../build/img/projects/emfest/pagina-web.jpg " alt="Sitio web de EMFest en una MacBook ">
         </picture>
         <P>
             <span>Electronic Music Festival es una página que tiene la finalidad de brindar información acerca del evento.</span> La primera impresión al entrar a la página es transmitir a través de un video de fondo la emoción de vivir la experiencia
@@ -27,12 +27,12 @@
         </p>
         <div class="imagenes-grid ">
             <picture>
-                <source srcset="../build/img/projects/emfest/01.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/emfest/01.jpg " alt="Sitio web de EMFstival en un iPhone ">
+                <source srcset="../build/img/projects/emfest/01-pagina-web.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/emfest/01-pagina-web.jpg " alt="Sitio web de EMFstival en un iPhone ">
             </picture>
             <picture>
-                <source srcset="../build/img/projects/emfest/02.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/emfest/02.jpg " alt="Sitio web de EMFstival en un iPhone ">
+                <source srcset="../build/img/projects/emfest/02-pagina-web.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/emfest/02-pagina-web.jpg " alt="Sitio web de EMFstival en un iPhone ">
             </picture>
         </div>
 
@@ -74,8 +74,8 @@
         </div>
 
         <picture>
-            <source srcset="../build/img/projects/emfest/responsive.webp " type="image/webp ">
-            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/emfest/responsive.jpg " alt="Sitio web de EMFest responsivo ">
+            <source srcset="../build/img/projects/emfest/pagina-web-responsiva.webp " type="image/webp ">
+            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/emfest/pagina-web-responsiva.jpg " alt="Sitio web de EMFest responsivo ">
         </picture>
     </div>
 </section>

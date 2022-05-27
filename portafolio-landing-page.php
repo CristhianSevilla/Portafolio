@@ -16,8 +16,8 @@
     <div class="contenedor-small ">
         <h2>Desarrollo Front-End</h2>
         <picture>
-            <source srcset="../build/img/projects/landingpage/0.webp " type="image/webp ">
-            <img width="200 " height="300 " src="../build/img/projects/landingpage/0.jpg " alt="Sitio web de landingPage en una MacBook ">
+            <source srcset="../build/img/projects/landingpage/pagina-web.webp " type="image/webp ">
+            <img width="200 " height="300 " src="../build/img/projects/landingpage/pagina-web.jpg " alt="Sitio web de landingPage en una MacBook ">
         </picture>
         <P>
             <span>Landing Page para una consultoría de desarrollo web y marketing digital.</span> Es una página web cuyo objetivo es envolver y persuadir al cliente o persona que la visita para que contrate o compre algún servicio que se ofrece dentro
@@ -25,12 +25,12 @@
         </P>
         <div class="imagenes-grid ">
             <picture>
-                <source srcset="../build/img/projects/landingpage/01.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/landingpage/01.jpg " alt="Sitio web de LandingPage en un iPhone ">
+                <source srcset="../build/img/projects/landingpage/01-pagina-web.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/landingpage/01-pagina-web.jpg " alt="Sitio web de LandingPage en un iPhone ">
             </picture>
             <picture>
-                <source srcset="../build/img/projects/landingpage/02.webp " type="image/webp ">
-                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/landingpage/02.jpg " alt="Sitio web de LandingPage en un iPhone ">
+                <source srcset="../build/img/projects/landingpage/02-pagina-web.webp " type="image/webp ">
+                <img loading="lazy " width="200 " height="300 " src="../build/img/projects/landingpage/02-pagina-web.jpg " alt="Sitio web de LandingPage en un iPhone ">
             </picture>
         </div>
 
@@ -68,8 +68,8 @@
         </div>
 
         <picture>
-            <source srcset="../build/img/projects/landingpage/responsive.webp " type="image/webp ">
-            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/landingpage/responsive.jpg " alt="Sitio web de LandingPage responsivo ">
+            <source srcset="../build/img/projects/landingpage/pagina-web-responsiva.webp " type="image/webp ">
+            <img loading="lazy " width="200 " height="300 " src="../build/img/projects/landingpage/pagina-web-responsiva.jpg " alt="Sitio web de LandingPage responsivo">
         </picture>
     </div>
 </section>

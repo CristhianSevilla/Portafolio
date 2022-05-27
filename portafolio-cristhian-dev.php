@@ -15,8 +15,8 @@
     <div class="contenedor-small">
         <h2>Desarrollo Fullstack</h2>
         <picture>
-            <source srcset="../build/img/projects/cristhian/0.webp" type="image/webp">
-            <img width="200" height="300" src="../build/img/projects/cristhian/0.jpg" alt="Sitio web de CristhianDev en una MacBook">
+            <source srcset="../build/img/projects/cristhian/pagina-web.webp" type="image/webp">
+            <img width="200" height="300" src="../build/img/projects/cristhian/pagina-web.jpg" alt="Sitio web de CristhianDev en una MacBook">
         </picture>
         <P>
             <span>Cristhian Dev es un sitio web cuyo principal objetivo es funcionar como carta de presentación de un desarrollador web. </span>Es mi sitio web personal, por lo tanto le he puesto mucho entusiasmo y dedicación, puedo decir que he disfrutado mucho del proceso y que estoy orgulloso del trabajo que he realizado.
@@ -24,12 +24,12 @@
 
         <div class="imagenes-grid">
             <picture>
-                <source srcset="../build/img/projects/cristhian/01.webp" type="image/webp">
-                <img loading="lazy" width="200" height="300" src="../build/img/projects/cristhian/01.jpg" alt="Sitio web de CristhianDev en un iPhone">
+                <source srcset="../build/img/projects/cristhian/01-pagina-web.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="../build/img/projects/cristhian/01-pagina-web.jpg" alt="Sitio web de Cristhian Sevilla en un iPhone">
             </picture>
             <picture>
-                <source srcset="../build/img/projects/cristhian/02.webp" type="image/webp">
-                <img loading="lazy" width="200" height="300" src="../build/img/projects/cristhian/02.jpg" alt="Sitio web de CristhianDev en un iPhone">
+                <source srcset="../build/img/projects/cristhian/02-pagina-web.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="../build/img/projects/cristhian/02-pagina-web.jpg" alt="Sitio web de Cristhian Sevilla en un iPhone">
             </picture>
         </div>
 
@@ -70,8 +70,8 @@
         </div>
 
         <picture>
-            <source srcset="../build/img/projects/cristhian/responsive.webp" type="image/webp">
-            <img loading="lazy" width="200" height="300" src="../build/img/projects/cristhian/responsive.jpg" alt="Sitio web de CristhianDev responsivo">
+            <source srcset="../build/img/projects/cristhian/pagina-web-responsiva.webp" type="image/webp">
+            <img loading="lazy" width="200" height="300" src="../build/img/projects/cristhian/pagina-web-responsiva.jpg" alt="Sitio web de CristhianDev responsivo">
         </picture>
     </div>
 </section>
