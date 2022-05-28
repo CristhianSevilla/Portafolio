@@ -8,11 +8,10 @@
 
 <section class="descripcion contenedor-small ">
     <h2>Contacto</h2>
-    <p>Busco formar parte de una empresa o agencia donde pueda aplicar todos mis conocimientos y juntos crear experiencias de usuario únicas y de impacto y al mismo tiempo tener la oportunidad de crecer personal y profesionalmente.</p>
-    <p>Por otro lado, si llegaste hasta aquí buscando una página web para tu negocio, marca, tienda online o sitio web personal, estas en el lugar correcto.</p>
-    <p></p>
+    <p>Busco formar parte de una empresa o agencia donde pueda aportar todos mis conocimientos y juntos crear experiencias de usuario únicas y de impacto y al mismo tiempo tener la oportunidad de crecer personal y profesionalmente.</p>
+    <p>Por otro lado, si llegaste hasta aquí buscando una página web para tu negocio, marca, tienda o un sitio web personal. ¡Estás en el lugar correcto!</p>
 
-    <p>No dude en comunicarse conmigo a través de cualquiera de las siguientes plataformas
+    <p>No dude en comunicarse conmigo a través de cualquiera de las siguientes plataformas:
     </p>
 </section>
 

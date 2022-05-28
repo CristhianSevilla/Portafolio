@@ -13,6 +13,19 @@
     <div class="proyectos ">
         <div class="proyecto ">
             <div class="proyecto-info ">
+                <h2>Barberia App</h2>
+                <p>Desarrollo fullstack</p>
+            </div>
+            <div class="proyecto-imagen ">
+                <picture>
+                    <source srcset="./build/img/projects/Barberia-App-Desarrollo-FullStack.webp " type="image/webp ">
+                    <img width="200 " height="70 " src="./build/img/projects/Barberia-App-Desarrollo-FullStack.png " alt="Sitio web de Bienes raíces ">
+                </picture>
+                <a href="portafolio-barberia-app" class="contenido_contacto boton ">Ver más</a>
+            </div>
+        </div>
+        <div class="proyecto ">
+            <div class="proyecto-info ">
                 <h2>Bienes raíces</h2>
                 <p>Desarrollo fullstack</p>
             </div>

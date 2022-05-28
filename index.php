@@ -13,7 +13,7 @@
     <div class="contenedor presentacion-contenido ">
         <div>
             <h2>Soy <span>desarrollador web</span></h2>
-            <p><span>Me gusta diseñar, maquetar y programar páginas web</span>, amo plasmar cada una de las ideas, colores y emociones que surgen de la inspiración de...</p>
+            <p><span>Me gusta diseñar, maquetar y programar páginas web</span>, amo plasmar cada una de las ideas, colores y emociones que surgen de la inspiración de un proyecto, y ¡comenzar algo grandioso!</p>
             <div class="alinear-derecha contenedor ">
                 <a href="/acerca" class="contenido_contacto boton ">Leer más</a>
             </div>
